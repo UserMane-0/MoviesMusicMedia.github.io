@@ -1,0 +1,57 @@
+body{
+	background-color: #222
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+  background: #222;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  background: #444;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+  background: #555;
+}
+
+.whitetext {
+		color: white;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.pixel-sans {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.nocopy {
+  user-select: none;
+}
+
+.jaro {
+	font-family: "Jaro", sans-serif;
+}
